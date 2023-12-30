@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Секундомер",
+  "version": "1.0",
+  "description": "Простой секундомер для Google Chrome",
+  "permissions": ["storage", "sync"],
+  "action": {
+    "default_popup": "html.html"
+  },
+  "default_popup": {
+    "width": 4000,
+    "height": 6004
+  }
+}
